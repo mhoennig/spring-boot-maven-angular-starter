@@ -1,12 +1,16 @@
-spring-boot-maven-angular-starter ![Build Status](https://travis-ci.org/mhoennig/spring-boot-maven-angular-starter.svg?branch=master)
+spring-boot-maven-angular-starter [![travisci Build Status](https://travis-ci.org/mhoennig/spring-boot-maven-angular-starter.svg?branch=master)](https://travis-ci.org/mhoennig/spring-boot-maven-angular-starter) [![codecov.io Code Coverate](https://codecov.io/gh/mhoennig/spring-boot-maven-angular-starter/branch/master/graph/badge.svg)](https://codecov.io/gh/mhoennig/spring-boot-maven-angular-starter)
 -----
 
 This is a multi-module Spring Boot Angular Maven starter app with good defaults.
-The frontend Angular app is built using [angular-cli](https://cli.angular.io/). The project packages Angular application code as a [WebJar](https://www.webjars.org/). This project is geared towards building monolithic applications. I have also written [a blog that explains step by step how to create this starter project](https://shekhargulati.com/2017/11/08/a-minimalist-guide-to-building-spring-boot-angular-5-applications/).
+The frontend Angular app is built using [angular-cli](https://cli.angular.io/). The project packages Angular application code as a [WebJar](https://www.webjars.org/). 
+
+This template represents a monolithic application and is mostly meant for small applications or for technology / feasibility exporations.
+
+The original author has also written [a blog that explains step by step how to create this starter project](https://shekhargulati.com/2017/11/08/a-minimalist-guide-to-building-spring-boot-angular-5-applications/).
 
 This project provides productive setup for building Spring Boot Angular applications. The application is divided into two Maven modules:
 
-1. `backend`: This contains Java code of the application.
+1. `backend`: This contains Java code of the application using the SpringFramework.
 2. `frontend`: This contains source code for the Angular based frontend.
 
 This project uses following versions:
