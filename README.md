@@ -73,3 +73,8 @@ Once the above command finishes, you can start the frontend using the `yarn star
 ## Hot reloading
 
 Both the front-end and back-end modules support hot reloading.
+
+## Realtime Collaboration
+
+There is a public Floobits workspace for this project: https://floobits.com/mhoennig/spring-boot-maven-angular-starter/info.\
+It allows for remote pair- and mob-programming.
